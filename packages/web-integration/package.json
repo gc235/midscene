@@ -8,7 +8,7 @@
     "Browser use",
     "Android use"
   ],
-  "version": "0.16.8",
+  "version": "0.16.10",
   "repository": "https://github.com/web-infra-dev/midscene",
   "homepage": "https://midscenejs.com/",
   "jsnext:source": "./src/index.ts",
@@ -120,7 +120,6 @@
     "test:ai:bridge": "MIDSCENE_CACHE=true BRIDGE_MODE=true npm run test --inspect tests/ai/bridge/temp.test.ts",
     "test:ai:cache": "MIDSCENE_CACHE=true npm run test",
     "upgrade": "modern upgrade",
-    "prepublishOnly": "npm run build",
     "e2e": "playwright test --config=tests/playwright.config.ts",
     "e2e:report": "MIDSCENE_REPORT=true playwright test --config=tests/playwright.config.ts",
     "e2e:cache": "MIDSCENE_CACHE=true playwright test --config=tests/playwright.config.ts",
